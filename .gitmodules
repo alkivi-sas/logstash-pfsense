@@ -1,0 +1,3 @@
+[submodule "logstash-nftables-updater"]
+	path = logstash-nftables-updater
+	url = https://github.com/alkivi-sas/logstash-nftables-updater

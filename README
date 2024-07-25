@@ -1,0 +1,3 @@
+Collection of files to handle pfsense logs using Logstash
+
+Kudo to https://github.com/pfelk/pfelk for the amazing base work
