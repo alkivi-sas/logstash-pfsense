@@ -1,3 +1,10 @@
-Collection of files to handle pfsense logs using Logstash
+# logstash-pfsense
 
-Kudo to https://github.com/pfelk/pfelk for the amazing base work
+Collections of files we use to process log send by pfSense firewall using LogStash.
+Based on https://github.com/pfelk/pfelk
+
+## Usage
+- Install logstash as you would normally do
+- Put `patterns` in `/etc/logstash`
+- Put `conf.d` also in `/etc/logstash`
+- Edit configuration according to your need (we remove a lot of unwanted fields)
